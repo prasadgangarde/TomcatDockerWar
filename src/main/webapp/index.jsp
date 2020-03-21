@@ -1,17 +1,17 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!DOCTYPE html> 
+<html> 
+<body> 
 
-<h2>Image Maps</h2>
-<p>Click on the sun or on one of the planets to watch it closer:</p>
+<video width="400" controls>
+  <source src="mov_bbb.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
 
-<img src="planets.gif" alt="Planets" usemap="#planetmap" style="width:145px;height:126px;">
+<p>
+Video courtesy of 
+<a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
 
-<map name="planetmap">
-  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
-  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
-  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
-</map>
-
-</body>
+</body> 
 </html>
